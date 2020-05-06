@@ -10,4 +10,4 @@ otamart = "https://otamart.com/search/?keyword=" + urllib.parse.quote(' '.join(s
 
 searchedArray = [surugaya, mandarake, mercari, yahoo, otamart]
 for searchPage in searchedArray:
-    webbrowser.open_new_tab(searchPage)
+    webbrowser.open_new(searchPage)
