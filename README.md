@@ -7,5 +7,5 @@ Python Version: >= 3.7.5
 ## Usage
 
 ```bash
-python secondhand.py ichigo book
+python secondhand.py
 ```
