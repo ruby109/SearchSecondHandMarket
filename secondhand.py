@@ -44,7 +44,7 @@ def open_browsers(event):
 
     if otamartCheck.get() == True:
         otamartURL = "https://otamart.com/search/?keyword=" + \
-            urlparse.quote(product.encode('utf-8'))　  # otamart not support newest sort :-(
+            urlparse.quote(product.encode('utf-8'))
         searchedArray.append(otamartURL)
 
     for searchPage in searchedArray:
